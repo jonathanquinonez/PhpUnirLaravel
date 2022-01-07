@@ -1,0 +1,2 @@
+[16-Dec-2021 16:01:29 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ControllerSmartPet::editarAction() in /home2/quisoftc/public_html/unir/app/Http/Controllers/ControllerSmartPet.php on line 59
+[16-Dec-2021 16:01:59 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ControllerSmartPet::editarAction() in /home2/quisoftc/public_html/unir/app/Http/Controllers/ControllerSmartPet.php on line 59

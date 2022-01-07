@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     //return view('welcome');
+//     Route::get('/','ControllerSmartPet@index');
+// });
+
+Route::get('/', 'ControllerSmartPet@index')->name('index');
+Route::get('editarView/{id}', 'ControllerSmartPet@editarView')->name('editarView');
+Route::post('editarAction', 'ControllerSmartPet@editarAction')->name('editarAction');
+Route::get('nuevoView', 'ControllerSmartPet@nuevoView')->name('nuevoView');
+Route::post('nuevoAction', 'ControllerSmartPet@nuevoAction')->name('nuevoAction');
+Route::get('eliminarAction/{id}', 'ControllerSmartPet@eliminarAction')->name('eliminarAction');
